@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background: linear-gradient(135deg, #172554, #2563eb) !important;
+}
+
+.profile {
+    border: 1px solid #e2e8f0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #2563eb;
+}
+
+.profile p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.contact-form {
+    max-width: 600px;
+}
+
+.btn {
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 35px 15px !important;
+    }
+
+    .profile {
+        padding: 25px !important;
+    }
+}

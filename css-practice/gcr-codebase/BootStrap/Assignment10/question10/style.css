@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+.destination-img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.carousel-caption {
+    bottom: 25%;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.booking-box {
+    max-width: 800px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000015;
+}
+
+.booking-box h2 {
+    color: #172554;
+    font-weight: bold;
+}
+
+.progress {
+    height: 28px;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    background-color: #2563eb;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .destination-img {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.4rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    .booking-box {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+header {
+    background: linear-gradient(135deg, #172554, #2563eb);
+}
+
+.task-panel {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+}
+
+.task-panel h2 {
+    color: #172554;
+    font-weight: bold;
+}
+
+.list-group-item {
+    padding: 18px;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #eff6ff;
+}
+
+.badge {
+    padding: 8px 12px;
+}
+
+.btn {
+    padding: 10px 25px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .task-panel {
+        padding: 18px;
+    }
+
+    .list-group-item {
+        padding: 14px;
+    }
+}
