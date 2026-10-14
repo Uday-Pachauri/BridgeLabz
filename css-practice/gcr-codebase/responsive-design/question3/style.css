@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+header {
+    background-color: #172554;
+    color: white;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+}
+
+.card {
+    flex: 1 1 calc(25% - 20px);
+    padding: 30px 15px;
+    background-color: #dbeafe;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: #93c5fd;
+}
+
+@media (max-width: 900px) {
+    .card {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
