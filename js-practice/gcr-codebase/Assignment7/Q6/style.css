@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+input {
+    padding: 12px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+#noResults {
+    display: none;
+    color: red;
+    font-weight: bold;
+}
